@@ -1,0 +1,33 @@
+# Build output
+/target/
+**/target/
+
+# IntelliJ IDEA (ignore all project metadata anywhere)
+/.idea/
+**/.idea/
+*.iml
+*.iws
+*.ipr
+
+# SmartTomcat / local Tomcat workspace
+/.smarttomcat/
+**/.smarttomcat/
+
+# VS Code
+/.vscode/
+**/.vscode/
+
+# Logs
+*.log
+
+# Local database files (keep these out of git; users should provide locally)
+*.accdb
+*.mdb
+*.ldb
+*.sqlite
+*.db
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
